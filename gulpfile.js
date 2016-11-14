@@ -1,9 +1,9 @@
 var gulp = require('gulp');
 var deploy = require('gulp-gh-pages');
 
-/*var options = {
+var options = {
     remoteUrl: "https://github.com/spolex/spolex.github.io.git",
-    branch: "master"};*/
+    branch: "master"};
 
 gulp.task('default', function() {
     console.log("Gulp lol look at me being rad.");
