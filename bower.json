@@ -1,0 +1,22 @@
+{
+  "name": "my-github-personal-page",
+  "description": "Mi página principal en github",
+  "main": "index.js",
+  "authors": [
+    "spolex"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/spolex/spolex.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {}
+}

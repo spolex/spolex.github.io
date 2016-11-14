@@ -1,7 +1,7 @@
 {
   "name": "testing-gulp-gh-pages",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mi página personal en github",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/spolex/spolex.github.io#readme",
   "devDependencies": {
+  },
+  "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4"
+    "gulp-gh-pages": "^0.5.4",
+    "bower": "^1.8.0"
   }
 }
