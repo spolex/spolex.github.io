@@ -13,6 +13,6 @@ gulp.task('default', function() {
  * Push build to gh-pages
  */
 gulp.task('deploy', function () {
-    return gulp.src("./dist/**/*")
+    return gulp.src("./**/*")
         .pipe(deploy())
 });
